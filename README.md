@@ -3,6 +3,9 @@
 
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
+    1. Asymptotic analysis doesn't take into account constent factors. So while the constent factors do take time to run or memory to store, they aren't analysed. 
+    2.
+    3.
 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
