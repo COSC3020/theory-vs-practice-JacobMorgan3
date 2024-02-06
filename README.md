@@ -3,7 +3,7 @@
 
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
-    1. Asymptotic analysis doesn't take into account constent factors. So while the constent factors do take time to run or memory to store, they aren't analysed. 
+    1. Asymptotic analysis doesn't take into account constant factors. So while the constant factors do take time to run or memory to store, they aren't analysed. 
     2.
     3.
 
