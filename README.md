@@ -4,15 +4,15 @@
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
     1. Asymptotic analysis doesn't take into account constant factors. So while the constant factors do take time to run or memory to store, they aren't analysed. 
-    2. Asymptotic analysis doesn't take into account for the uniqueness of different implementations, for example some implemetations might use less memory than others and while this doesn't change anything for the asymptotic analysis it can effect actual run time of algorithms.
-    3. Differences in hardware will also affect actual performance.
+    2. Asymptotic analysis doesn't take into account for the uniqueness of different implementations, for example some implemetations might use less memory than others and while this doesn't change anything for the asymptotic analysis it can effect actual run time of algorithms. (expand more 
+    3. Differences in hardware will also affect actual performance. (expand
 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
   of search in a binary search tree, how long would you guess finding the same
   element in a search tree with 10,000 elements takes? Explain your reasoning.
 
-  Guess: I would guess that it will take around 65 seconds. Because, 1000*log(1000) = 3000 and 10000*log(10000) = 40000  40000/3000 = 13.3333333  40000 is about 13 times larger than 1000  so 5 seconds * 13 = 65 seconds
+  Guess: (show assumptions and rework) thing about linear and then quad) I would guess that it will take around 65 seconds. Because, 1000*log(1000) = 3000 and 10000*log(10000) = 40000  40000/3000 = 13.3333333  40000 is about 13 times larger than 1000  so 5 seconds * 13 = 65 seconds
 
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
