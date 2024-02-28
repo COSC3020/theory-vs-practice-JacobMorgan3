@@ -20,5 +20,6 @@ Guess: We know that the complexity of a binary search tree is $log(n)$. $log_2(1
 
   1. Maybe I am running other programs on my computer so more of the cpu and memory are being used for other tasks, so the binary search tree is left with less computing power, so it is slower.
   2. Perhaps the 'search tree' with 10000 elements is not a binary search tree, but some other type. so it has a slower time complexity than a binary search tree.
-  3. I don't know. I must be missing something.
+  3. Maybe the implementation is not the most effient. 
+
      I'm assuming that the time complexity is fixed. That the algorithm isnt faster with smaller inputs.
