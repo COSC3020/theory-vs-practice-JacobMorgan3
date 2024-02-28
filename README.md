@@ -12,7 +12,7 @@
   of search in a binary search tree, how long would you guess finding the same
   element in a search tree with 10,000 elements takes? Explain your reasoning.
 
-Guess: We know that the complexity of a binary search tree is $log(n)$. $log_2(1000) = 9.97$ $log_2(9000) = 13.14$ this grows by 1.318 original, so finding the same element in the binary search tree would take about 6.59 seconds.
+Guess: We know that the complexity of a binary search tree is $log(n)$. $log_2(1000) = 9.97$ and $log_2(10000) = 13.29$ this grows by 1.333 original, so finding the same element in the binary search tree would take about 6.65 seconds.
 
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
@@ -20,4 +20,5 @@ Guess: We know that the complexity of a binary search tree is $log(n)$. $log_2(1
 
   1. Maybe I am running other programs on my computer so more of the cpu and memory are being used for other tasks, so the binary search tree is left with less computing power, so it is slower.
   2. Perhaps the 'search tree' with 10000 elements is not a binary search tree, but some other type. so it has a slower time complexity than a binary search tree.
-  3. I don't know. I must be missing something. 
+  3. I don't know. I must be missing something.
+     I'm assuming that the time complexity is fixed. That the algorithm isnt faster with smaller inputs.
